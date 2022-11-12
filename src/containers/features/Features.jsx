@@ -32,10 +32,10 @@ const Features = () => {
       </div>
 <div className="features-container">
 {featuresData.map((feature,index)=>(
-   <>
+   
 <Feature title={feature.title} text={feature.text} key={feature.title + index}/>
-<br/>
-</>
+
+
 
 ))}
 </div>
